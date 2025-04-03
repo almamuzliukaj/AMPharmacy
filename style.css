@@ -1,0 +1,78 @@
+#AMPharmacy {
+  margin-top: 43px;
+  overflow-y: auto;
+}
+
+.am-main-content {
+  background-image: url(GREEN-BACKGROUND.jpg);
+  background-color: #12ad72; 
+  background-size: cover;
+  background-position: center;
+  color: #000000;
+  padding: 100px 0; 
+}
+
+.am-heading  {
+  font-size: 35px;
+  margin-bottom: 20px;
+}
+
+.am-paragraph {
+  font-size: 18px;
+  margin-bottom: 30px;
+}
+
+.am-btn {
+  font-size: 18px;
+  padding: 10px 20px;
+  background-color: #0a863a;
+  color: #ffffff;
+  text-decoration: none;
+  border-radius: 5px;
+  transition: background-color 0.3s ease;
+}
+
+.am-btn:hover {
+  background-color: #000000;
+}
+
+/* Footer styles */
+.am-footer {
+  background-color: #ffffff;
+  color: rgb(10, 10, 10);
+  text-align: center;
+  padding: 2px 0;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.am-footer .container {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.am-footer-info {
+  margin: 5px 0;
+}
+
+.am-footer a {
+  color: rgb(23, 182, 84);
+  font-size: 20px;
+  margin: 0 10px;
+}
+
+.am-footer a:hover {
+  color: #c7c5c5;
+}
+
+.clock{
+  font-size: 35px;
+  color: #fff;
+  background-color: #0a863a;
+  padding: 20px;
+  box-shadow: 0 0 20px rgba(255,255,255,0.2);
+}
+
+
+

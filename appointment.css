@@ -1,0 +1,66 @@
+#AMPharmacy{
+    background-color: #f4f4f4;
+    padding: 20px;
+    background-image: url(GREEN-BACKGROUND.jpg);
+}
+
+h1 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.am-form {
+    background-color: #d2dbdb;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.am-form div {
+    margin-bottom: 15px;
+}
+
+.am-label {
+    display: block;
+    font-weight: bold;
+}
+
+.am-input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+.am-button {
+    background-color: #088b59;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.am-button:hover {
+    background-color: #222222;
+}
+.am-goback-btn {
+    background-color: #088b59; 
+    border: none; 
+    color: white; 
+    padding: 10px 20px;
+    text-align: center; 
+    text-decoration: none;
+    display: inline-block; 
+    font-size: 16px; 
+    margin: 4px 2px; 
+    cursor: pointer; 
+    border-radius: 4px; 
+    transition-duration: 0.4s;  
+  }
+
+  .am-goback-btn:hover {
+    background-color: #222222;
+    }
+    
