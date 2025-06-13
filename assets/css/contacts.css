@@ -1,5 +1,6 @@
 body{
-  background-image: url(GREEN-BACKGROUND.jpg);
+  background-image: url('assets\images\GREEN-BACKGROUND.jpg');
+    background-color: #12ad72; 
 
 }
 

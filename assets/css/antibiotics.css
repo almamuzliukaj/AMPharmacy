@@ -1,7 +1,7 @@
 #AMPharmacy{
     background-image: url(GREEN-BACKGROUND.jpg);
+      background-color: #12ad72; 
 }
-
 .am-custom-card {
     width: 100%;
     max-width: 300px;
@@ -16,7 +16,7 @@
     object-fit: cover;
   }
 
-  /* Footer styles */
+ /* Footer styles */
 .am-footer {
   background-color: #ffffff;
   color: rgb(10, 10, 10);

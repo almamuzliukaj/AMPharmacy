@@ -3,6 +3,7 @@ body {
     margin: 0;
     padding: 0;
     background-image: url(GREEN-BACKGROUND.jpg);
+      background-color: #12ad72; 
   }
   
   .am-container {

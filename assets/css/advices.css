@@ -3,10 +3,11 @@ body {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  background-image: url(GREEN-BACKGROUND.jpg);
+  background-image: url(C:\Users\ES-Vlera\Desktop\AMPharmacy\assets\images\GREEN-BACKGROUND.jpg);
   background-size: cover;
   background-position: center;
   font-family: Arial, sans-serif;
+  background-color: #12ad72; 
 }
 
 /* Push the table below the navbar */
