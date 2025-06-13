@@ -1,0 +1,46 @@
+#AMPharmacy{
+   background-image: url(GREEN-BACKGROUND.jpg);
+}
+
+.am-custom-card {
+    width: 100%;
+    max-width: 300px;
+    z-index: 1;
+    margin-top: 70px;
+    
+  }
+
+  .am-custom-card .am-card-img-top {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+  }
+
+  /* Footer styles */
+.am-footer {
+  background-color: #ffffff;
+  color: rgb(10, 10, 10);
+  text-align: center;
+  padding: 20px 0;
+  margin-top: 50px;
+}
+
+.am-footer .container {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.am-footer-info {
+  margin: 5px 0;
+}
+
+.am-footer a {
+  color: rgb(23, 182, 84);
+  font-size: 20px;
+  margin: 0 10px;
+}
+
+.am-footer a:hover {
+  color: #c7c5c5;
+}

@@ -1,0 +1,81 @@
+
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background-image: url(GREEN-BACKGROUND.jpg);
+  background-size: cover;
+  background-position: center;
+  font-family: Arial, sans-serif;
+}
+
+/* Push the table below the navbar */
+.table-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  padding-top: 90px; /* Adjust this to move table lower */
+}
+
+/* Table styling */
+.am-table {
+  width: 90%;
+  max-width: 800px;
+  border-collapse: collapse;
+  background: rgba(255, 255, 255, 0.9);
+  border-radius: 10px;
+  overflow: hidden;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+/* Table cell styles */
+.am-table th, .am-table td {
+  padding: 12px;
+  text-align: left;
+  border: 1px solid #ffffff;
+}
+
+.am-table th {
+  background-color: #28c591;
+  color: white;
+  font-weight: bold;
+}
+
+.am-table tbody tr:nth-of-type(odd) {
+  background-color: #e3e3e3;
+}
+
+.am-table tbody tr:hover {
+  background-color: #b3e6cd;
+  transition: 0.3s ease-in-out;
+}
+
+/* Footer styles */
+.am-footer {
+  background-color: #ffffff;
+  color: rgb(10, 10, 10);
+  text-align: center;
+  padding: 20px 0;
+  margin-top: 50px;
+}
+
+.am-footer .container {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.am-footer-info {
+  margin: 5px 0;
+}
+
+.am-footer a {
+  color: rgb(23, 182, 84);
+  font-size: 20px;
+  margin: 0 10px;
+}
+
+.am-footer a:hover {
+  color: #c7c5c5;
+}

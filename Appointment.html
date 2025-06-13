@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AMPharmacy</title>
+    <link rel="stylesheet" href="appointment.css">
+    <link href="https://fonts.googleapis.com/css2?family=Andika&family=BenchNine:wght@300;400&family=Oxygen:wght@300&family=Roboto+Condensed&display=swap" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+
+<body id="AMPharmacy">
+    <h1>Fill this form</h1>
+    <form class="am-form" action="/submit-appointment" method="POST">
+        <div>
+            <label class="am-label" for="am-name">Name:</label>
+            <input class="am-input" type="text" id="am-name" name="name" required>
+        </div>
+        <div>
+            <label class="am-label" for="am-email">Email:</label>
+            <input class="am-input" type="email" id="am-email" name="email" required>
+        </div>
+        <div>
+            <label class="am-label" for="am-phone">Phone Number:</label>
+            <input class="am-input" type="tel" id="am-phone" name="phone" required>
+        </div>
+        <div>
+            <label class="am-label" for="am-date">Preferred Date:</label>
+            <input class="am-input" type="date" id="am-date" name="date" required>
+        </div>
+        <div>
+            <label class="am-label" for="am-time">Preferred Time:</label>
+            <input class="am-input" type="time" id="am-time" name="time" required>
+        </div>
+        <div>
+            <label class="am-label" for="am-comments">Comments:</label>
+            <textarea class="am-input" id="am-comments" name="comments" rows="4"></textarea>
+        </div>
+        <div>
+            <button class="am-button" type="submit">Submit</button>
+            <button class="am-button" type="button" onclick="goBack()">Go Back</button>
+        </div>
+    </form>
+    <script src="appointment.js"></script>
+</body>
+</html>

@@ -1,0 +1,87 @@
+body {
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    background-image: url(GREEN-BACKGROUND.jpg);
+  }
+  
+  .am-container {
+    max-width: 700px;
+    margin: 80px auto 20px; 
+    border: 1px solid #696969;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(27, 27, 27, 0.1);
+    background-color: #ffffff;
+    padding: 20px; 
+  }
+  
+  .am-about h3 {
+    font-size: 24px;
+    margin-bottom: 10px;
+  }
+  
+  .am-about-content {
+    display: flex; 
+    align-items: flex-end;
+  }
+  
+  .am-about img {
+    max-width: 300px; 
+    height: auto;
+    margin-right: 70px;
+  }
+  
+  .am-about-text {
+    flex-grow: 1; 
+  }
+  
+  .am-about p {
+    margin-bottom: 15px;
+  }
+
+  /* Footer styles */
+.am-footer {
+  background-color: #ffffff;
+  color: rgb(10, 10, 10);
+  text-align: center;
+  padding: 20px 0;
+  margin-top: 50px;
+}
+
+.am-footer .container {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.am-footer-info {
+  margin: 5px 0;
+}
+
+.am-footer a {
+  color: rgb(23, 182, 84);
+  font-size: 20px;
+  margin: 0 10px;
+}
+
+.am-footer a:hover {
+  color: #c7c5c5;
+}
+.am-btn {
+  background-color: #088b59; 
+  border: none; 
+  color: white; 
+  padding: 10px 20px;
+  text-align: center; 
+  text-decoration: none;
+  display: inline-block; 
+  font-size: 16px; 
+  margin: 4px 2px; 
+  cursor: pointer; 
+  border-radius: 4px; 
+  transition-duration: 0.4s;  
+}
+
+.am-btn:hover {
+  background-color: #222222;
+  }

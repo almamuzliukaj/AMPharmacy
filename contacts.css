@@ -1,0 +1,84 @@
+body{
+  background-image: url(GREEN-BACKGROUND.jpg);
+
+}
+
+.am-map-container h3{
+  font-size: 30px; 
+  color: #333;
+  margin-bottom: 10px; 
+  border: 3px solid #1f1f1f;
+  padding: 20px;
+  border-radius: 5px; 
+  background-color: rgb(167, 175, 170);
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.am-map-container {
+  width: 100%;
+  max-width: 800px; 
+  margin-top: 90px;
+}
+.map-gif {
+  width: 100%;
+  position: absolute;
+  top: 50%;
+  right: -10px; 
+  transform: translateY(-50%); 
+  width: 500px;
+  height: auto; 
+  margin-top: 90px;
+
+}
+
+.am-map-container iframe {
+  width: 100%; 
+  height: 500px; 
+  border: 0;
+  margin-right: 50px;
+}
+.am-container{
+  width: 100%;
+  max-width: 800px; 
+  margin-top: 20px;
+}
+
+.am-container h3{
+  font-size: 30px; 
+  color: #333;
+  margin-bottom: 10px; 
+  border: 3px solid #1f1f1f;
+  padding: 20px;
+  border-radius: 5px; 
+  background-color: rgb(167, 175, 170);
+}
+
+/* Footer styles */
+.am-footer {
+background-color: #ffffff;
+color: rgb(10, 10, 10);
+text-align: center;
+padding: 20px 0;
+margin-top: 50px;
+}
+
+.am-footer .container {
+display: flex;
+justify-content: space-between;
+flex-wrap: wrap;
+}
+
+.am-footer-info {
+margin: 5px 0;
+}
+
+.am-footer a {
+color: rgb(23, 182, 84);
+font-size: 20px;
+margin: 0 10px;
+}
+
+.am-footer a:hover {
+color: #c7c5c5;
+} 
