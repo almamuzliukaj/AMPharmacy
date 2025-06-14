@@ -44,7 +44,7 @@
 
   <div class="am-login-container">
     <h2>Login</h2>
-    <form action="login.php" method="POST">
+    <form id="loginForm">
       <div class="am-input-group">
         <label for="username">Username:</label>
         <input type="text" id="username" name="username" required />
@@ -57,7 +57,16 @@
     </form>
   </div>
 
-  <!-- If needed in the future -->
-  <!-- <script src="assets/js/login.js"></script> -->
+  <script>
+  document.getElementById("loginForm").addEventListener("submit", function (e) {
+    e.preventDefault(); // Stop form from submitting normally
+
+    const username = document.getElementById("username").value;
+    if (username) {
+      localStorage.setItem("ampharmacyUser", username);
+      window.location.href = "index.html";
+    }
+  });
+</script>
 </body>
 </html>

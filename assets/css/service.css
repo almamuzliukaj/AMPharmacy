@@ -1,88 +1,143 @@
+/* Page background */
+#AMPharmacy {
+  background-color: #12ad72;
+  background-image: url('../assets/images/GREEN-BACKGROUND.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  min-height: 100vh;
+}
+
+/* Reset + font */
 body {
-    line-height: 1.6;
-    margin: 0;
-    padding: 0;
-    background-image: url(GREEN-BACKGROUND.jpg);
-      background-color: #12ad72; 
-  }
-  
-  .am-container {
-    max-width: 700px;
-    margin: 80px auto 20px; 
-    border: 1px solid #696969;
-    border-radius: 5px;
-    box-shadow: 0 0 10px rgba(27, 27, 27, 0.1);
-    background-color: #ffffff;
-    padding: 20px; 
-  }
-  
-  .am-about h3 {
-    font-size: 24px;
-    margin-bottom: 10px;
-  }
-  
-  .am-about-content {
-    display: flex; 
-    align-items: flex-end;
-  }
-  
-  .am-about img {
-    max-width: 300px; 
-    height: auto;
-    margin-right: 70px;
-  }
-  
-  .am-about-text {
-    flex-grow: 1; 
-  }
-  
-  .am-about p {
-    margin-bottom: 15px;
-  }
-
-  /* Footer styles */
-.am-footer {
-  background-color: #ffffff;
-  color: rgb(10, 10, 10);
-  text-align: center;
-  padding: 20px 0;
-  margin-top: 50px;
+  margin: 0;
+  padding: 0;
+  line-height: 1.6;
+  font-family: 'Oxygen', sans-serif;
 }
 
-.am-footer .container {
+/* Main container with vertical center and spacing */
+.am-container {
   display: flex;
-  justify-content: space-between;
-  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  padding-top: 100px;
+  padding-bottom: 60px;
 }
 
-.am-footer-info {
-  margin: 5px 0;
+/* Content card box */
+.am-about {
+  width: 85%;                /* slightly narrower */
+  max-width: 650px;          /* reduced from 800px */
+  background: rgba(255, 255, 255, 0.95);
+  border-radius: 10px;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+  padding: 25px;             /* slightly less padding */
+  text-align: center;
 }
 
-.am-footer a {
-  color: rgb(23, 182, 84);
-  font-size: 20px;
-  margin: 0 10px;
+/* Headline */
+.am-about h3 {
+  font-size: 24px;
+  color: #0e5f3e;
+  margin-bottom: 15px;
+  font-weight: bold;
 }
 
-.am-footer a:hover {
-  color: #c7c5c5;
+/* Text */
+.am-about p {
+  font-size: 15px;
+  color: #333;
+  line-height: 1.6;
+  margin-bottom: 12px;
 }
+
+.am-about span {
+  font-weight: bold;
+  color: #088b59;
+}
+
+/* Image inside container */
+.am-about img {
+  max-width: 85%;           /* reduce image width */
+  height: auto;
+  max-height: 220px;        /* slightly smaller image */
+  border-radius: 6px;
+  margin-bottom: 15px;
+  box-shadow: 0 3px 8px rgba(0, 0, 0, 0.1);
+}
+
+
+.am-about p {
+  font-size: 16px;
+  color: #333;
+  margin-bottom: 15px;
+  line-height: 1.7;
+  text-align: justify;
+}
+
+.am-about span {
+  font-weight: bold;
+  color: #088b59;
+}
+
+/* Button styling */
 .am-btn {
-  background-color: #088b59; 
-  border: none; 
-  color: white; 
-  padding: 10px 20px;
-  text-align: center; 
+  background-color: #088b59;
+  border: none;
+  color: white;
+  padding: 12px 24px;
+  font-size: 16px;
+  border-radius: 4px;
   text-decoration: none;
-  display: inline-block; 
-  font-size: 16px; 
-  margin: 4px 2px; 
-  cursor: pointer; 
-  border-radius: 4px; 
-  transition-duration: 0.4s;  
+  transition: background-color 0.3s ease;
+  margin-top: 10px;
+  display: inline-block;
 }
 
 .am-btn:hover {
   background-color: #222222;
-  }
+}
+
+.am-footer {
+  background-color: #ffffff;
+  color: #0a0a0a;
+  padding: 20px 40px;
+  margin-top: 40px;
+  border-top: 1px solid #ccc;
+}
+
+.am-footer-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  flex-wrap: wrap;
+}
+
+.am-footer-left,
+.am-footer-right {
+  flex: 1 1 300px;
+  padding: 10px;
+}
+
+.am-footer-heading {
+  font-size: 20px;
+  margin-bottom: 10px;
+  color: #0a863a;
+}
+
+.am-footer-info {
+  margin: 4px 0;
+  font-size: 16px;
+}
+
+.am-footer-socials a {
+  color: #17b654;
+  font-size: 22px;
+  margin-right: 15px;
+  transition: color 0.3s;
+}
+
+.am-footer-socials a:hover {
+  color: #888;
+}

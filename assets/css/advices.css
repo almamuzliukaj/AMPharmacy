@@ -1,3 +1,11 @@
+#AMPharmacy {
+  background-color: #12ad72;
+  background-image: url('../assets/images/GREEN-BACKGROUND.jpg'); /* adjust path */
+  background-size: cover;
+  background-repeat: no-repeat;
+  min-height: 100vh; /* ensures full screen background */
+}
+
 
 body {
   margin: 0;
@@ -52,31 +60,45 @@ body {
   transition: 0.3s ease-in-out;
 }
 
-/* Footer styles */
 .am-footer {
   background-color: #ffffff;
-  color: rgb(10, 10, 10);
-  text-align: center;
-  padding: 20px 0;
-  margin-top: 50px;
+  color: #0a0a0a;
+  padding: 20px 40px;
+  margin-top: 40px;
+  border-top: 1px solid #ccc;
 }
 
-.am-footer .container {
+.am-footer-container {
   display: flex;
   justify-content: space-between;
+  align-items: flex-start;
   flex-wrap: wrap;
 }
 
-.am-footer-info {
-  margin: 5px 0;
+.am-footer-left,
+.am-footer-right {
+  flex: 1 1 300px;
+  padding: 10px;
 }
 
-.am-footer a {
-  color: rgb(23, 182, 84);
+.am-footer-heading {
   font-size: 20px;
-  margin: 0 10px;
+  margin-bottom: 10px;
+  color: #0a863a;
 }
 
-.am-footer a:hover {
-  color: #c7c5c5;
+.am-footer-info {
+  margin: 4px 0;
+  font-size: 16px;
+}
+
+.am-footer-socials a {
+  color: #17b654;
+  font-size: 22px;
+  margin-right: 15px;
+  transition: color 0.3s;
+}
+
+.am-footer-socials a:hover {
+  color: #888;
 }
