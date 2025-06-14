@@ -10,7 +10,6 @@ AMPharmacy is a responsive and user-friendly web platform for browsing and manag
 - ✅ Login system with session memory (LocalStorage)
 - ✅ Personalized greeting with username on navigation
 - ✅ Logout functionality
-- ✅ "Save" button support to bookmark medicine (coming soon)
 - ✅ Structured layout with consistent navigation bar and footer
 - ✅ Google Maps integration on the Contacts page
 - ✅ Modern UI theme with vintage green background
@@ -105,7 +104,6 @@ cd ampharmacy
     </td>
   </tr>
 </table>
-> Note: Replace the above image paths with real screenshots you upload.
 
 ## 🙌 Credits
 
