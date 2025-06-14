@@ -87,11 +87,24 @@ cd ampharmacy
    - Redirects to Home and shows the username in navbar
 
 ## 📸 Screenshots
-
-| Home Page                        | Medicines Page                    | Contact Page                     |
-|----------------------------------|-----------------------------------|----------------------------------|
-| ![Home](assets/images/Homepage.png) | ![Analgesics](assets/images/MedicinePage.png) | ![Contact](assets/images/ContactsPage.png) |
-
+<table>
+  <tr>
+    <th>Home Page</th>
+    <th>Medicines Page</th>
+    <th>Contact Page</th>
+  </tr>
+  <tr>
+    <td align="center">
+      <img src="https://github.com/user-attachments/assets/5945b6dd-09ac-419c-8a9c-65dfa1cefb66" alt="Homepage" width="250" />
+    </td>
+    <td align="center">
+      <img src="https://github.com/user-attachments/assets/740682b3-d449-4811-922b-f8b72b0e3c79" alt="MedicinePage" width="250" />
+    </td>
+    <td align="center">
+      <img src="https://github.com/user-attachments/assets/fb8af4c5-d904-495b-9538-958608f9cffa" alt="ContactsPage" width="250" />
+    </td>
+  </tr>
+</table>
 > Note: Replace the above image paths with real screenshots you upload.
 
 ## 🙌 Credits
