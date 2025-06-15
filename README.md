@@ -51,7 +51,7 @@ project-root/
 │       └── appointment.js
 │
 └── README.md
-
+```
 
 ## 💻 Technologies Used
 
