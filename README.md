@@ -24,6 +24,7 @@ project-root/
 ├── advices.html
 ├── service.html
 ├── contacts.html
+├── appointment.html
 │
 ├── medicines/
 │   ├── analgesics.html
@@ -45,7 +46,11 @@ project-root/
 │   │   ├── GREEN-BACKGROUND.jpg
 │   │   └── [medicine photos & gifs]
 │   └── js/
-│       └── navbar.js
+│       ├── navbar.js
+│       ├── index.js
+│       └── appointment.js
+│
+└── README.md
 ```
 
 ## 💻 Technologies Used
